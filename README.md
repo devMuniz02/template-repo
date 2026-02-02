@@ -71,6 +71,32 @@ This script will:
 
 **Note:** Make sure your repository has a remote origin set and is pushed to GitHub before running the script.
 
+## 📁 Project Structure
+
+```
+[repo-name]/
+├── assets/                 # Static assets (images, icons, etc.)
+├── data/                   # Data files and datasets
+├── docs/                   # Documentation files
+├── notebooks/              # Jupyter notebooks for analysis and prototyping
+├── scripts/                # Utility scripts and automation tools
+├── src/                    # Source code
+├── tests/                  # Unit tests and test files
+├── LICENSE                 # License file
+├── README.md               # Project documentation
+└── requirements.txt        # Python dependencies
+```
+
+### Directory Descriptions
+
+- **`assets/`**: Store static files like images, icons, fonts, and other media assets.
+- **`data/`**: Place datasets, input files, and any data-related resources here.
+- **`docs/`**: Additional documentation, guides, and project-related files.
+- **`notebooks/`**: Jupyter notebooks for data exploration, prototyping, and demonstrations.
+- **`scripts/`**: Utility scripts for automation, setup, deployment, or maintenance tasks.
+- **`src/`**: Main source code for the project.
+- **`tests/`**: Unit tests, integration tests, and test-related files.
+
 ## �📖 Usage
 
 ### Basic Usage

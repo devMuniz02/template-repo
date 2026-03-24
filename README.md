@@ -132,43 +132,41 @@ Project Link: [https://github.com/devMuniz02/[repo-name]](https://github.com/dev
 
 ⭐ If you find this project helpful, please give it a star!
 
-## Table of Contents
+## Overview
 
-- [Features](#features)
-- [Installation](#installation)
-- [Repository Setup](#repository-setup)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+A standardized boilerplate for new projects. Includes a pre-configured MIT License, universal .gitignore, and a structured README template to ensure consistency across all repositories.
 
-## Project Structure
+## Repository Structure
 
+| Path | Description |
+| --- | --- |
+| `assets/` | Images, figures, or other supporting media used by the project. |
+| `data/` | Datasets, data artifacts, or preprocessing inputs. |
+| `docs/` | Project documentation and supporting written material. |
+| `notebooks/` | Exploratory notebooks and experiment walkthroughs. |
+| `scripts/` | Top-level project directory containing repository-specific resources. |
+| `src/` | Primary source code for the application or library. |
+| `tests/` | Top-level project directory containing repository-specific resources. |
+| `.gitignore` | Top-level file included in the repository. |
+| `LICENSE` | Repository license information. |
+| `README.md` | Primary project documentation. |
+
+## Getting Started
+
+1. Clone the repository.
+
+   ```bash
+   git clone https://github.com/devMuniz02/template-repo.git
+   cd template-repo
+   ```
+
+2. Prepare the local environment.
+
+Install Python dependencies:
+```bash
+pip install -r requirements.txt
 ```
-[repo-name]/
-├── assets/                 # Static assets (images, icons, etc.)
-├── data/                   # Data files and datasets
-├── docs/                   # Documentation files
-├── notebooks/              # Jupyter notebooks for analysis and prototyping
-├── scripts/                # Utility scripts and automation tools
-├── src/                    # Source code
-├── tests/                  # Unit tests and test files
-├── LICENSE                 # License file
-├── README.md               # Project documentation
-└── requirements.txt        # Python dependencies
-```
 
-### Directory Descriptions
+3. Run or inspect the project entry point.
 
-- **`assets/`**: Store static files like images, icons, fonts, and other media assets.
-- **`data/`**: Place datasets, input files, and any data-related resources here.
-- **`docs/`**: Additional documentation, guides, and project-related files.
-- **`notebooks/`**: Jupyter notebooks for data exploration, prototyping, and demonstrations.
-- **`scripts/`**: Utility scripts for automation, setup, deployment, or maintenance tasks.
-- **`src/`**: Main source code for the project.
-- **`tests/`**: Unit tests, integration tests, and test-related files.
-
-## ️ Configuration
-
-[Explain configuration options, environment variables, config files, etc.]
+Use the project-specific scripts or notebooks in the repository root to run the workflow.
